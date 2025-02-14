@@ -1,5 +1,5 @@
 <template lang="pug">
-    .slider.flex.flex-col(class="lg:flex-row justify-between items-center gap-10 lg:gap-[140px] px-[50px]")
+    .slider.flex.flex-col(class="lg:flex-row justify-between items-center gap-10 lg:gap-[140px]")
       aside.hidden(class="lg:block")
           button(:disabled="currentSlide === 0" @click="handleSlider('decrement')")
               Icon(:name="leftBtn")
