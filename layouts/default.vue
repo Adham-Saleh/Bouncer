@@ -3,6 +3,8 @@
         Nav 
     main
         slot
+    footer 
+        pageFooter
 </template>
 
 <script setup lang="ts"></script>
